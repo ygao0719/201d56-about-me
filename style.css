@@ -3,6 +3,10 @@ header{
   font-size: 9em;
   color: rgb();
   text-align: center;
+  background-color: rgb(57, 59, 175);
+  padding: 10px;
+  border: 17px dotted red;
+  margin: 20px;
 }
 
 h1 {
@@ -18,8 +22,7 @@ html{
   background-blend-mode:overlay;
 }
 
-ul
-{
+ul{
   display:block;
   list-style-type: circle;
   margin-top: 2em;
@@ -27,4 +30,9 @@ ul
   margin-left: 1em;
   margin-right: 1em;
   padding-left: 65px;
+}
+
+p{
+  color: lightblue;
+  text-align: center;
 }
