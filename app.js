@@ -60,22 +60,22 @@ if (food.toLowerCase() === 'y' || food.toLowerCase() === 'yes'){
 var num = '';
 var limit = 4;
 var numGuess = 0;
- while (numGuess < limit){
-   num = prompt('Guess! What is my favorite number?');
-   numGuess++;
-   if (num > 9){
-     alert('Too high. Try agian. ');
-     console.log('The user\'s number is too high');
-   }else if (num < 9){
-     alert('Too low. Try again ');
-     console.log('The use\'s number is too low');
-   }else if (num = 9){
+while (numGuess < limit){
+  num = prompt('Guess! What is my favorite number?');
+  numGuess++;
+  if (num > 9){
+    alert('Too high. Try agian. ');
+    console.log('The user\'s number is too high');
+  }else if (num < 9){
+    alert('Too low. Try again ');
+    console.log('The use\'s number is too low');
+  }else if (num === 9){
     alert('You are right. 9 is my number.');
     console.log('The use\'s number is right');
     numCorrect++;
     break;
   }
- }
+}
 var seventhCorrect = ['china', 'jordan', 'kuwait'];
 for(var i = 0; i < 6; i ++){
   var country = prompt('Can you guess a country that I have lived in besides U.S.?');
