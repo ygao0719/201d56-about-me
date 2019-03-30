@@ -3,7 +3,7 @@ header{
   font-size: 9em;
   color: rgb();
   text-align: center;
-  background-color: rgb(57, 59, 175);
+  background-color: rgba(144, 145, 233, 0.418);
   padding: 10px;
   border: 17px dotted red;
   margin: 20px;
@@ -15,7 +15,7 @@ h1 {
 }
 
 html{
-  background-color: lightgrey;
+  background-color: rgb(101, 121, 113);
   background-image: url('seattle-travel.adapt.1900.1.jpg');
   background-position: center; 
   background-repeat: no-repeat; 
