@@ -2,8 +2,7 @@
 
 
 var numCorrect = 0;
-
-
+//ask player's name
 var userName = prompt('Hey, welcome to my about-me! My name is Yuan, what should I call you?');
 alert('Nice to meet you, ' + userName + '!');
 console.log('User entered their username as \'' + userName + '\'.');
@@ -15,7 +14,7 @@ yesNoQuestions();
 myFavNumber();
 countryLived();
 alert('You got ' + numCorrect + ' out of 7 questions correct, ' + userName + ' ! Better luck next time.');
-
+//ask first 5 questions.
 function yesNoQuestions(){
   var place = prompt('Am I in Seattle?');
   if (place.toLowerCase()==='y' || place.toLowerCase()==='yes'){
@@ -26,7 +25,6 @@ function yesNoQuestions(){
     console.log('No. I am in Seattle');
     alert ('Sorry, you are wrong!');
   }
-  
   var degree = prompt('Do I have a degree on computer science?');
   if (degree.toLowerCase() === 'y' || degree.toLowerCase() ==='yes'){
     console.log('yes. I do');
@@ -67,7 +65,7 @@ function yesNoQuestions(){
     alert ('Sorry, you are wrong!');
   }
 }
-
+//my favorite number.
 function myFavNumber(){
   var num = '';
   var limit = 4;
@@ -89,7 +87,7 @@ function myFavNumber(){
     }
   }
 }
-
+//what countries I have lived in.
 function countryLived(){
   var seventhCorrect = ['china', 'jordan', 'kuwait'];
   for(var i = 0; i < 6; i ++){
