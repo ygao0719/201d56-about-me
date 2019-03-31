@@ -21,12 +21,6 @@ h1 {
   font-family: "Times New Roman", Times, serif;
 }
 
-div > ul{
-  text-align: right;
-  font-weight: 200;
-  color: chartreuse;
-}
-
 #top{
   font-size: 3em;
   text-align: right;
@@ -37,6 +31,7 @@ div > ul{
 
 div > ul{
   color: chartreuse;
+  list-style-type: none;
   margin-top: 2em;
   margin-bottom: 2em;
   margin-left: 1em;
